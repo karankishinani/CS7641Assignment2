@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cac71784-c928-4707-89e3-be323f23d5f3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/Backprop.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/GA.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/RHC.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/SA.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/abagail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/build.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/faq.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/abalone_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/continuouspeaks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/countones.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/fourpeaks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/knapsack.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_GA100_10_10_1_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_GA100_10_10_2_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_GA100_10_10_3_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_GA100_10_10_4_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_GA100_10_10_5_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_GA100_10_30_1_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_GA100_10_30_2_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_GA100_10_30_3_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_GA100_10_30_4_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_GA100_10_30_5_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_GA100_10_50_1_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_GA100_10_50_2_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_GA100_10_50_3_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_GA100_10_50_4_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_GA100_10_50_5_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_GA100_30_10_1_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_GA100_30_10_2_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_GA100_30_10_3_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_GA100_30_10_4_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_GA100_30_10_5_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_GA100_30_30_1_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_GA100_30_30_2_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_GA100_30_30_3_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_GA100_30_30_4_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_GA100_30_30_5_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_GA100_30_50_1_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_GA100_30_50_2_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_GA100_30_50_3_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_GA100_30_50_4_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_GA100_30_50_5_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_GA100_50_10_1_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_GA100_50_10_2_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_GA100_50_10_3_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_GA100_50_10_4_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_GA100_50_10_5_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_GA100_50_30_1_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_GA100_50_30_2_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_GA100_50_30_3_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_GA100_50_30_4_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_GA100_50_30_5_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_GA100_50_50_1_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_GA100_50_50_2_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_GA100_50_50_3_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_GA100_50_50_4_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_GA100_50_50_5_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_MIMIC100_50_0.1_1_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_MIMIC100_50_0.1_2_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_MIMIC100_50_0.1_3_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_MIMIC100_50_0.1_4_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_MIMIC100_50_0.1_5_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_MIMIC100_50_0.3_1_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_MIMIC100_50_0.3_2_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_MIMIC100_50_0.3_3_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_MIMIC100_50_0.3_4_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_MIMIC100_50_0.3_5_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_MIMIC100_50_0.5_1_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_MIMIC100_50_0.5_2_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_MIMIC100_50_0.5_3_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_MIMIC100_50_0.5_4_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_MIMIC100_50_0.5_5_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_MIMIC100_50_0.7_1_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_MIMIC100_50_0.7_2_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_MIMIC100_50_0.7_3_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_MIMIC100_50_0.7_4_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_MIMIC100_50_0.7_5_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_MIMIC100_50_0.9_1_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_MIMIC100_50_0.9_2_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_MIMIC100_50_0.9_3_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_MIMIC100_50_0.9_4_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_MIMIC100_50_0.9_5_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_RHC_1_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_RHC_2_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_RHC_3_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_RHC_4_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_RHC_5_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_SA0.15_1_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_SA0.15_2_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_SA0.15_3_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_SA0.15_4_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_SA0.15_5_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_SA0.35_1_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_SA0.35_2_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_SA0.35_3_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_SA0.35_4_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_SA0.35_5_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_SA0.55_1_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_SA0.55_2_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_SA0.55_3_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_SA0.55_4_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_SA0.55_5_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_SA0.75_1_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_SA0.75_2_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_SA0.75_3_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_SA0.75_4_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_SA0.75_5_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_SA0.95_1_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_SA0.95_2_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_SA0.95_3_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_SA0.95_4_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/CONTPEAKS/CONTPEAKS_SA0.95_5_LOG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/best_results_raw.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/images/CONTPEAKS/Best_Fevals.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/images/CONTPEAKS/Best_Fitness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/images/CONTPEAKS/GA_100_10_Fevals.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/images/CONTPEAKS/GA_100_10_Fitness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/images/CONTPEAKS/GA_100_10_Time.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/images/CONTPEAKS/GA_100_30_Fevals.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/images/CONTPEAKS/GA_100_30_Fitness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/images/CONTPEAKS/GA_100_30_Time.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/images/CONTPEAKS/GA_100_50_Fevals.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/images/CONTPEAKS/GA_100_50_Fitness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/images/CONTPEAKS/GA_100_50_Time.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/images/CONTPEAKS/MIMIC_100_50_Fevals.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/images/CONTPEAKS/MIMIC_100_50_Fitness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/images/CONTPEAKS/MIMIC_100_50_Time.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/images/CONTPEAKS/RHC_Fevals.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/images/CONTPEAKS/RHC_Fitness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/images/CONTPEAKS/RHC_Time.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/images/CONTPEAKS/SA_Fevals.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/images/CONTPEAKS/SA_Fitness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/images/CONTPEAKS/SA_Time.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/images/FLIPFLOP/Best_Fevals.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/output/images/FLIPFLOP/Best_Fitness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/plotting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/run.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/jython/travelingsalesman.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/output2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/dist/AbstractConditionalDistribution.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/dist/AbstractConditionalDistribution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/dist/AbstractDistribution.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/dist/AbstractDistribution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/dist/ConditionalDistribution.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/dist/ConditionalDistribution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/dist/DiscreteDependencyTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/dist/DiscreteDependencyTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/dist/DiscreteDependencyTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/dist/DiscreteDependencyTreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/dist/DiscreteDependencyTreeRootNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/dist/DiscreteDependencyTreeRootNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/dist/DiscreteDistribution.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/dist/DiscreteDistribution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/dist/DiscreteDistributionTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/dist/DiscreteDistributionTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/dist/DiscretePermutationDistribution.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/dist/DiscretePermutationDistribution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/dist/DiscreteUniformDistribution.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/dist/DiscreteUniformDistribution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/dist/Distribution.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/dist/Distribution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/dist/FixedComponentMixtureDistribution.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/dist/FixedComponentMixtureDistribution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/dist/FixedDistribution.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/dist/FixedDistribution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/dist/LabelDistribution.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/dist/LabelDistribution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/dist/MixtureDistribution.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/dist/MixtureDistribution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/dist/MultivariateGaussian.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/dist/MultivariateGaussian.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/dist/PrecalculatedDistribution.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/dist/PrecalculatedDistribution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/dist/UnivariateGaussian.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/dist/UnivariateGaussian.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/dist/hmm/ConditionalStateDistributionWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/dist/hmm/ConditionalStateDistributionWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/dist/hmm/ForwardBackwardProbabilityCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/dist/hmm/ForwardBackwardProbabilityCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/dist/hmm/HiddenMarkovModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/dist/hmm/HiddenMarkovModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/dist/hmm/HiddenMarkovModelReestimator.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/dist/hmm/HiddenMarkovModelReestimator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/dist/hmm/ModularHiddenMarkovModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/dist/hmm/ModularHiddenMarkovModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/dist/hmm/SimpleStateDistribution.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/dist/hmm/SimpleStateDistribution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/dist/hmm/SimpleStateDistributionTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/dist/hmm/SimpleStateDistributionTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/dist/hmm/StateDistribution.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/dist/hmm/StateDistribution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/dist/hmm/StateSequenceCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/dist/hmm/StateSequenceCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/dist/test/DiscreteDependencyTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/dist/test/DiscreteDependencyTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/dist/test/DiscreteDistributionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/dist/test/DiscreteDistributionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/dist/test/HMMCoinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/dist/test/HMMCoinTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/dist/test/HMMConditionalMonsterKnowledgeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/dist/test/HMMConditionalMonsterKnowledgeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/dist/test/HMMConditionalMonsterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/dist/test/HMMConditionalMonsterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/dist/test/HMMRandomCoinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/dist/test/HMMRandomCoinTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/dist/test/HMMWumpusTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/dist/test/HMMWumpusTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/dist/test/MixtureDistributionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/dist/test/MixtureDistributionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/dist/test/MultivariateGaussianTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/dist/test/MultivariateGaussianTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/AdaBoostClassifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/AdaBoostClassifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/DecisionStumpClassifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/DecisionStumpClassifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/DecisionTreeClassifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/DecisionTreeClassifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/EMClusterer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/EMClusterer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/FunctionApproximater.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/FunctionApproximater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/GaussianProcessRegression.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/GaussianProcessRegression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/KMeansClusterer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/KMeansClusterer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/KNNClassifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/KNNClassifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/NeuralNetworkClassifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/NeuralNetworkClassifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/SimpleSupportVectorMachineClassifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/SimpleSupportVectorMachineClassifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/dtree/BinaryDecisionTreeSplit.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/dtree/BinaryDecisionTreeSplit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/dtree/ChiSquarePruningCriteria.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/dtree/ChiSquarePruningCriteria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/dtree/DecisionTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/dtree/DecisionTreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/dtree/DecisionTreeSplit.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/dtree/DecisionTreeSplit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/dtree/DecisionTreeSplitStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/dtree/DecisionTreeSplitStatistics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/dtree/GINISplitEvaluator.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/dtree/GINISplitEvaluator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/dtree/InformationGainSplitEvaluator.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/dtree/InformationGainSplitEvaluator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/dtree/PruningCriteria.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/dtree/PruningCriteria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/dtree/SplitEvaluator.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/dtree/SplitEvaluator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/dtree/StandardDecisionTreeSplit.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/dtree/StandardDecisionTreeSplit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/inst/HyperRectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/inst/HyperRectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/inst/KDTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/inst/KDTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/inst/KDTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/inst/KDTreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/inst/NearestNeighborQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/inst/NearestNeighborQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/nn/NetworkTrainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/nn/NetworkTrainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/nn/activation/ActivationFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/nn/activation/ActivationFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/nn/activation/LinearActivationFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/nn/activation/LinearActivationFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/nn/backprop/BackPropagationBiasNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/nn/backprop/BackPropagationBiasNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/nn/backprop/BackPropagationLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/nn/backprop/BackPropagationLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/nn/backprop/BackPropagationNetworkFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/nn/backprop/BackPropagationNetworkFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/nn/backprop/BackPropagationSoftMaxOutputLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/nn/backprop/BackPropagationSoftMaxOutputLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/nn/backprop/BasicUpdateRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/nn/backprop/BasicUpdateRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/nn/backprop/BatchBackPropagationTrainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/nn/backprop/BatchBackPropagationTrainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/nn/backprop/QuickpropUpdateRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/nn/backprop/QuickpropUpdateRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/nn/backprop/StandardUpdateRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/nn/backprop/StandardUpdateRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/nn/backprop/StochasticBackPropagationTrainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/nn/backprop/StochasticBackPropagationTrainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/nn/backprop/WeightUpdateRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/nn/backprop/WeightUpdateRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/svm/Kernel.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/svm/Kernel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/svm/LinearKernel.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/svm/LinearKernel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/svm/PolynomialKernel.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/svm/PolynomialKernel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/svm/RBFKernel.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/svm/RBFKernel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/svm/SequentialMinimalOptimization.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/svm/SequentialMinimalOptimization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/svm/SigmoidKernel.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/svm/SigmoidKernel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/svm/SingleClassSequentialMinimalOptimization.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/svm/SingleClassSequentialMinimalOptimization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/svm/SingleClassSupportVectorMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/svm/SingleClassSupportVectorMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/svm/SupportVectorMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/svm/SupportVectorMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/test/AdaBoostTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/test/AdaBoostTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/test/DecisionStumpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/test/DecisionStumpTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/test/DecisionTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/test/DecisionTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/test/EMClustererTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/test/EMClustererTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/test/GaussianProcessRegressionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/test/GaussianProcessRegressionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/test/KMeansClustererTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/test/KMeansClustererTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/test/KNNClassifierTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/test/KNNClassifierTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/test/NNBinaryClassificationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/test/NNBinaryClassificationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/test/NNClassificationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/test/NNClassificationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/test/PruningCriteriaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/test/PruningCriteriaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/test/SequentialMinimalOptimizationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/test/SequentialMinimalOptimizationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/test/SingleClassSequentialMinimalOptimizationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/test/SingleClassSequentialMinimalOptimizationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/func/test/SplitEvaluatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/func/test/SplitEvaluatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/ContinuousAddOneNeighbor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/ContinuousAddOneNeighbor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/DiscreteChangeOneNeighbor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/DiscreteChangeOneNeighbor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/EvaluationFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/EvaluationFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/GenericHillClimbingProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/GenericHillClimbingProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/GenericOptimizationProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/GenericOptimizationProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/HillClimbingProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/HillClimbingProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/NeighborFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/NeighborFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/OptimizationAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/OptimizationAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/OptimizationProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/OptimizationProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/RandomizedHillClimbing.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/RandomizedHillClimbing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/SimulatedAnnealing.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/SimulatedAnnealing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/SwapNeighbor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/SwapNeighbor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/example/ContinuousPeaksEvaluationFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/example/ContinuousPeaksEvaluationFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/example/CountOnesEvaluationFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/example/CountOnesEvaluationFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/example/FlipFlopEvaluationFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/example/FlipFlopEvaluationFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/example/FourPeaksEvaluationFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/example/FourPeaksEvaluationFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/example/KnapsackEvaluationFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/example/KnapsackEvaluationFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/example/NeuralNetworkEvaluationFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/example/NeuralNetworkEvaluationFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/example/NeuralNetworkOptimizationProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/example/NeuralNetworkOptimizationProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/example/NeuralNetworkWeightDistribution.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/example/NeuralNetworkWeightDistribution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/example/TravelingSalesmanCrossOver.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/example/TravelingSalesmanCrossOver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/example/TravelingSalesmanEvaluationFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/example/TravelingSalesmanEvaluationFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/example/TravelingSalesmanRouteEvaluationFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/example/TravelingSalesmanRouteEvaluationFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/example/TravelingSalesmanSortEvaluationFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/example/TravelingSalesmanSortEvaluationFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/example/TwoColorsEvaluationFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/example/TwoColorsEvaluationFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/ga/ContinuousAddOneMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/ga/ContinuousAddOneMutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/ga/CrossoverFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/ga/CrossoverFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/ga/DiscreteChangeOneMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/ga/DiscreteChangeOneMutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/ga/GenericGeneticAlgorithmProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/ga/GenericGeneticAlgorithmProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/ga/GeneticAlgorithmProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/ga/GeneticAlgorithmProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/ga/MutationFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/ga/MutationFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/ga/NQueensFitnessFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/ga/NQueensFitnessFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/ga/SingleCrossOver.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/ga/SingleCrossOver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/ga/StandardGeneticAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/ga/StandardGeneticAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/ga/SwapMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/ga/SwapMutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/ga/TwoPointCrossOver.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/ga/TwoPointCrossOver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/ga/UniformCrossOver.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/ga/UniformCrossOver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/prob/GenericProbabilisticOptimizationProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/prob/GenericProbabilisticOptimizationProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/prob/MIMIC.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/prob/MIMIC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/prob/ProbabilisticOptimizationProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/prob/ProbabilisticOptimizationProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/test/ContinuousPeaksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/test/ContinuousPeaksTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/test/CountOnesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/test/CountOnesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/test/FlipFlopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/test/FlipFlopTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/test/FourPeaksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/test/FourPeaksTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/test/KnapsackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/test/KnapsackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/test/PokerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/test/TravelingSalesmanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/test/TravelingSalesmanTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/test/XORTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/test/XORTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/test/letter.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/test/pendigits.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/rl/DecayingEpsilonGreedyStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/rl/DecayingEpsilonGreedyStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/rl/EpsilonGreedyStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/rl/EpsilonGreedyStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/rl/ExplorationStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/rl/ExplorationStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/rl/GreedyStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/rl/GreedyStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/rl/MarkovDecisionProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/rl/MarkovDecisionProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/rl/MazeMarkovDecisionProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/rl/MazeMarkovDecisionProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/rl/MazeMarkovDecisionProcessVisualization.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/rl/MazeMarkovDecisionProcessVisualization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/rl/Policy.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/rl/Policy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/rl/PolicyIteration.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/rl/PolicyIteration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/rl/PolicyLearner.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/rl/PolicyLearner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/rl/QLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/rl/QLambda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/rl/SarsaLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/rl/SarsaLambda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/rl/SimpleMarkovDecisionProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/rl/SimpleMarkovDecisionProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/rl/ValueIteration.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/rl/ValueIteration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/rl/test/MDPTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/rl/test/MDPTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/rl/test/MazeMDPTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/rl/test/MazeMDPTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/rl/test/NonDeterministicMazeMDPTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/rl/test/NonDeterministicMazeMDPTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/shared/AbstractDistanceMeasure.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/shared/AbstractDistanceMeasure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/shared/AbstractErrorMeasure.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/shared/AbstractErrorMeasure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/shared/AttributeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/shared/AttributeType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/shared/ConvergenceTrainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/shared/ConvergenceTrainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/shared/Copyable.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/shared/Copyable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/shared/DataSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/shared/DataSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/shared/DataSetDescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/shared/DataSetDescription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/shared/DataSetWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/shared/DataSetWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/shared/DistanceMeasure.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/shared/DistanceMeasure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/shared/ErrorMeasure.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/shared/ErrorMeasure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/shared/EuclideanDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/shared/EuclideanDistance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/shared/FixedIterationTrainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/shared/FixedIterationTrainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/shared/GradientErrorMeasure.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/shared/GradientErrorMeasure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/shared/HammingDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/shared/HammingDistance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/shared/Instance.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/shared/Instance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/shared/MixedDistanceMeasure.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/shared/MixedDistanceMeasure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/shared/OccasionalPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/shared/OccasionalPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/shared/SumOfSquaresError.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/shared/SumOfSquaresError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/shared/ThresholdTrainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/shared/ThresholdTrainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/shared/Trainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/shared/Trainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/shared/filt/ContinuousToDiscreteFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/shared/filt/ContinuousToDiscreteFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/shared/filt/DataSetFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/shared/filt/DataSetFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/shared/filt/DiscreteDistributionFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/shared/filt/DiscreteDistributionFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/shared/filt/DiscreteToBinaryFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/shared/filt/DiscreteToBinaryFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/shared/filt/IndependentComponentAnalysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/shared/filt/IndependentComponentAnalysis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/shared/filt/InsignificantComponentAnalysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/shared/filt/InsignificantComponentAnalysis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/shared/filt/LabelFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/shared/filt/LabelFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/shared/filt/LabelSelectFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/shared/filt/LabelSelectFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/shared/filt/LabelSplitFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/shared/filt/LabelSplitFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/shared/filt/LinearDiscriminantAnalysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/shared/filt/LinearDiscriminantAnalysis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/shared/filt/PrincipalComponentAnalysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/shared/filt/PrincipalComponentAnalysis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/shared/filt/RandomOrderFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/shared/filt/RandomOrderFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/shared/filt/RandomizedProjectionFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/shared/filt/RandomizedProjectionFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/shared/filt/ReversibleFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/shared/filt/ReversibleFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/shared/filt/ica/ContrastFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/shared/filt/ica/ContrastFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/shared/filt/ica/HyperbolicTangentContrast.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/shared/filt/ica/HyperbolicTangentContrast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/shared/test/IndepenentComponentAnalysisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/shared/test/IndepenentComponentAnalysisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/shared/test/InsignificantComponentAnalysisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/shared/test/InsignificantComponentAnalysisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/shared/test/LinearDiscriminantAnalysisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/shared/test/LinearDiscriminantAnalysisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/shared/test/PrincipalComponentAnalysisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/shared/test/PrincipalComponentAnalysisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/util/ABAGAILArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/util/ABAGAILArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/util/MaxHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/util/MaxHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/util/graph/DFSTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/util/graph/DFSTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/util/graph/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/util/graph/Edge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/util/graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/util/graph/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/util/graph/GraphTransformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/util/graph/GraphTransformation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/util/graph/KruskalsMST.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/util/graph/KruskalsMST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/util/graph/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/util/graph/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/util/graph/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/util/graph/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/util/graph/WeightedEdge.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/util/graph/WeightedEdge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/util/linalg/BidiagonalDecomposition.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/util/linalg/BidiagonalDecomposition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/util/linalg/DenseVector.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/util/linalg/DenseVector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/util/linalg/DiagonalMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/util/linalg/DiagonalMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/util/linalg/GivensRotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/util/linalg/GivensRotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/util/linalg/HouseholderReflection.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/util/linalg/HouseholderReflection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/util/linalg/LUDecomposition.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/util/linalg/LUDecomposition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/util/linalg/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/util/linalg/Matrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/util/linalg/QRDecomposition.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/util/linalg/QRDecomposition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/util/linalg/SingularValueDecomposition.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/util/linalg/SingularValueDecomposition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/util/linalg/Vector.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/util/linalg/Vector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/util/test/ABAGAILArraysTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/util/test/ABAGAILArraysTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/util/test/BidiagonalDecompositionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/util/test/BidiagonalDecompositionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/util/test/HouseholderReflectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/util/test/HouseholderReflectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/util/test/LUDecompositionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/util/test/LUDecompositionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/util/test/LowerTriangularMatrixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/util/test/LowerTriangularMatrixTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/util/test/QRDecompositionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/util/test/QRDecompositionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/util/test/SingularValueDecompositionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/util/test/SingularValueDecompositionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/util/test/UpperTriangularMatrixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/util/test/UpperTriangularMatrixTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1425147896">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Python Console" value="6" />
+          <entry key="md" value="3114" />
+          <entry key="py" value="28" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Markdown" value="3114" />
+          <entry key="Python" value="34" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="csv" value="11" />
+          <entry key="md" value="1" />
+          <entry key="png" value="111" />
+          <entry key="py" value="9" />
+          <entry key="txt" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="111" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="16" />
+          <entry key="Python" value="9" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/output/best_results_raw.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="345">
+                <caret line="23" column="4" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run_experiment.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/output/images/TSP/Best_Fitness.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/output/images/TSP/SA_Time.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/output/images/TSP/RHC_Fevals.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/output/images/TSP/RHC_Fitness.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/output/images/FLIPFLOP/RHC_Fitness.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/output/images/FLIPFLOP/MIMIC_100_50_Fitness.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fill_between</find>
+      <find>/</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/plotting.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CS7641Assignment2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CS7641Assignment2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CS7641Assignment2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CS7641Assignment2" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CS7641Assignment2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CS7641Assignment2" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="plotting" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CS7641Assignment2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plotting.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.plotting" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cac71784-c928-4707-89e3-be323f23d5f3" name="Default Changelist" comment="" />
+      <created>1551493010368</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551493010368</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12614517" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40735695" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32893288" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32893288" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/output/images/TSP/GA_100_50_Fevals.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/images/TSP/GA_100_50_Time.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/images/TSP/MIMIC_100_50_Fitness.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/images/FLIPFLOP/Best_Fevals.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/FLIPFLOP/FLIPFLOP_SA0.95_1_LOG.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/FLIPFLOP/FLIPFLOP_MIMIC100_50_0.9_5_LOG.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4144" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/FLIPFLOP/FLIPFLOP_GA100_10_10_1_LOG.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4144" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/FLIPFLOP/FLIPFLOP_SA0.95_5_LOG.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4144" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/images/NN/Backprop_Fitness.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/images/NN/Best_Fitness.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/images/NN/GA_50_Score.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/images/NN/RHC_Fitness.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/images/CONTPEAKS/Best_Fevals.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/images/CONTPEAKS/GA_100_10_Fevals.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/images/CONTPEAKS/GA_100_10_Time.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/images/CONTPEAKS/GA_100_30_Fevals.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/images/CONTPEAKS/GA_100_30_Time.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/images/CONTPEAKS/SA_Fevals.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/images/CONTPEAKS/Best_Fitness.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/images/CONTPEAKS/GA_100_50_Fevals.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/images/CONTPEAKS/GA_100_10_Fitness.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/images/CONTPEAKS/GA_100_30_Fitness.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/images/CONTPEAKS/RHC_Fitness.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/images/CONTPEAKS/MIMIC_100_50_Fitness.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/images/CONTPEAKS/GA_100_50_Time.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/images/CONTPEAKS/GA_100_50_Fitness.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/images/CONTPEAKS/SA_Time.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/images/CONTPEAKS/SA_Fitness.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/images/CONTPEAKS/RHC_Time.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/images/CONTPEAKS/MIMIC_100_50_Time.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/images/CONTPEAKS/MIMIC_100_50_Fevals.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/images/FLIPFLOP/Best_Fitness.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/images/FLIPFLOP/GA_100_50_Fitness.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/images/FLIPFLOP/GA_100_10_Fevals.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/images/FLIPFLOP/MIMIC_100_50_Time.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/images/FLIPFLOP/MIMIC_100_50_Fevals.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/images/FLIPFLOP/SA_Time.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/images/FLIPFLOP/SA_Fitness.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/images/FLIPFLOP/GA_100_50_Time.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plotting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/best_results.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/images/TSP/Best_Fitness.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/images/TSP/SA_Time.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/images/TSP/RHC_Fevals.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/images/TSP/RHC_Fitness.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/images/FLIPFLOP/RHC_Fitness.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/images/FLIPFLOP/MIMIC_100_50_Fitness.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/best_results_raw.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_experiment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="345">
+            <caret line="23" column="4" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

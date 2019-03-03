@@ -14,6 +14,7 @@ public class ContinuousPeaksEvaluationFunction implements EvaluationFunction {
      * The t value
      */
     private int t;
+	public long fevals;
     
     /**
      * Make a new continuous peaks function
@@ -32,24 +33,31 @@ public class ContinuousPeaksEvaluationFunction implements EvaluationFunction {
         int count = 0;
         for (int i = 0; i < data.size(); i++) {
             if (data.get(i) == 0) {
-                max0 = Math.max(max0, ++count);
+                count++;
             } else {
-                count = 0;
+                if (count > max0) {
+                    max0 = count;
+                    count = 0;
+                }
             }
         }
         int max1 = 0;
-        count = 0;
+       count = 0;
         for (int i = 0; i < data.size(); i++) {
             if (data.get(i) == 1) {
-                max1 = Math.max(max1, ++count);
+                count++;
             } else {
-                count = 0;
+                if (count > max1) {
+                    max1 = count;
+                    count = 0;
+                }
             }
         }
         int r = 0;
         if (max1 > t && max0 > t) {
             r = data.size();
         }
+		this.fevals = this.fevals +1;
         return Math.max(max1, max0) + r;
     }
 }
