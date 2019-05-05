@@ -65,7 +65,7 @@ Please make sure you have Python 3.7.2 installed in your machine. Then run the f
 
     `jython <filename>.py`
     
-    This will automatically generate the data needed to create plots in the `./output` directory.
+    This will automatically generate the data needed to create plots in the `./output/images` directory.
     
 ### Generating Plots
 
